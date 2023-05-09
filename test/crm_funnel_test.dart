@@ -25,8 +25,7 @@ void main() {
       Logger().d(funnel);
     });
     test("update funnel", () async {
-      var newFunnel =
-          await weeek.updateFunnel("fMVxsEhxREQbwZJZ", "update test");
+      await weeek.updateFunnel("fMVxsEhxREQbwZJZ", "update test");
     });
     test("delete funnel", () async {
       await weeek.deleteFunnel("fMVxsEhxREQbwZJZ");

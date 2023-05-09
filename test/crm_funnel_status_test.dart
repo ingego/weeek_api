@@ -26,8 +26,7 @@ void main() {
       Logger().d(funnel);
     });
     test("update funnel status", () async {
-      var newFunnel =
-          await weeek.updateFunnelStatus("Snr6wtpi5qNb3cVp", "new test");
+      await weeek.updateFunnelStatus("Snr6wtpi5qNb3cVp", "new test");
     });
     test("delete funnel status", () async {
       await weeek.deleteFunnelStatus("Snr6wtpi5qNb3cVp");

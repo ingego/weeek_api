@@ -1,6 +1,7 @@
 name: weeek_api
 description: sdk to work with WEEEK
 version: 0.0.1
+homepage: "https://github.com/ingego?tab=repositories"
 
 environment:
   sdk: ">=2.19.6 <3.0.0"

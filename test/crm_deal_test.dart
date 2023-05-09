@@ -7,7 +7,7 @@ import 'package:weeek_api/testkey.dart';
 void main() {
   group('crm funnel status', () {
     late Weeek weeek;
-    String idFunnel = "3lQUqD61qJpKpsOr";
+    // String idFunnel = "3lQUqD61qJpKpsOr";
     setUp(() async {
       await Weeek.init(token);
       weeek = Weeek.getInstance();
@@ -31,7 +31,7 @@ void main() {
       Logger().d(deal);
     });
     test("update deal", () async {
-      var deal = await weeek.updateDeal(
+      await weeek.updateDeal(
           "GHeDmS2g9BoAAT3b", Deal(description: "update test desc"));
     });
     test("delete deal", () async {
