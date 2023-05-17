@@ -1,5 +1,5 @@
 
-# Weeek api
+# Weeek api (ALPHA)
 
 <https://developers.weeek.net/#operation/crm-update-organization>
 
